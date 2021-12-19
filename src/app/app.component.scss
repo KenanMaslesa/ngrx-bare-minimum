@@ -1,0 +1,25 @@
+.card{
+  text-align: center;
+  padding: 30px;
+
+  &__message{
+    font-weight: normal;
+  }
+
+  &__button{
+    border: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    color: white;
+    margin: 3px;
+    cursor: pointer;
+
+    &--blue{
+      background-color: blue;
+    }
+
+    &--green{
+      background-color: rgb(42, 207, 42);
+    }
+  }
+}
